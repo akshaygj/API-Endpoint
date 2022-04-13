@@ -8,7 +8,7 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
 
-API_KEY = "AIzaSyCOD3KvY2DDzEfel-NZ_LKIWXr86EF_EUw"
+API_KEY = "api_key"
 logging.basicConfig(format="%(levelname)s - %(message)s", level=logging.DEBUG)
 
 # These error codes can be retried according to google. Ref: https://github.com/googlemaps/google-maps-services-python/blob/4dd8db6b53049869cf98f2fed3ba8e56676d1709/googlemaps/client.py#L214
